@@ -53,6 +53,7 @@
 
 Στην πιο πάνω εικόνα φαίνεται ότι το Raspberry Pi έχει πάρει την διεύθυνση ΙΡ **192.168.1.34** και έχει **Hostname** το **raspberrypi.local**.
 
-* Από τη στιγμή που γνωρίζουμε την διεύθυνση IP του Raspberry Pi μπορούμε να χρησιμοποιήσουμε έναν οποιονδήποτε πελάτη SSH για να συνδεθούμε. Στα Windows, ο πιο γνωστός πελάτης SSH είναι το Putty (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Εναλλακτικά, μπορούμε να εγκαταστήσουμε την τελευταία έκδοση του Windows Terminal (https://www.microsoft.com/store/productId/9N0DX20HK701) το οποίο υποστηρίζει συνδέσεις μέσω SSH. Σ' αυτόν τον οδηγό θα γίνει χρήση του Windows Terminal.
-Ανοίγουμε το Windows Terminal και γράφουμε την εντολή με την οποία θα συνδεθούμε στο Raspberry Pi. 
+* Από τη στιγμή που γνωρίζουμε την διεύθυνση IP του Raspberry Pi μπορούμε να χρησιμοποιήσουμε έναν οποιονδήποτε πελάτη SSH για να συνδεθούμε. Αν και στα Windows, ο πιο γνωστός πελάτης SSH είναι το Putty (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), εμείς σε αυτόν τον οδηγό θα χρησιμοποιήσουμε την τελευταία έκδοση του Windows Terminal (https://www.microsoft.com/store/productId/9N0DX20HK701) το οποίο υποστηρίζει συνδέσεις μέσω SSH.
+
+Ανοίγουμε λοιπόν το Windows Terminal και γράφουμε την εντολή με την οποία θα συνδεθούμε στο Raspberry Pi. 
 `ssh pi@192.168.1.34`
