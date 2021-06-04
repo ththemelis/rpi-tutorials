@@ -8,12 +8,24 @@
     <img src="images/imager.png" alt="Raspberry Pi Imager" />
 </p>
 
-Ο πιο εύκολος τρόπος για να εγκαταστήσουμε, σε μια κάρτα μνήμης micro SD, το Raspberry Lite είναι με τη χρήση του Raspberry Pi Imager - (<a href="https://www.raspberrypi.org/software/" target="_blank" />), ακολουθώντας την παρακάτω διαδικασία.
+Ο πιο εύκολος τρόπος για να εγκαταστήσουμε, σε μια κάρτα μνήμης micro SD, το Raspberry Lite είναι με τη χρήση του Raspberry Pi Imager - (https://www.raspberrypi.org/software/), ακολουθώντας την παρακάτω διαδικασία.
 
-* Αφου κατεβάσουμε, εγκαταστήσουμε και τρέξουμε το Raspberry Pi Imager, θα επιλέξουμε **Raspberry Pi OS (other)** και στη συνέχεια **Raspberry Pi OS Lite (32-bit)**
+* Αφου κατεβάσουμε, εγκαταστήσουμε και τρέξουμε το Raspberry Pi Imager, θα πατήσουμε το κουμπί **CHOOSE OS** και θα επιλέξουμε διαδοχικά **Raspberry Pi OS (other)** και **Raspberry Pi OS Lite (32-bit)**
 
 <p align="center">
     <img src="images/imager-select-os.png" alt="Επιλογή Raspberry Pi OS Lite" />
+</p>
+
+* Πατώντας το κουμπί **CHOOSE STORAGE** θα επιλέξουμε την κάρτα μνήμης που έχουμε τοποθετήσει στον υπολογιστή μας.
+
+<p align="center">
+    <img src="images/imager-select-sd.png" alt="Επιλογή κάρτας μνήμης" />
+</p>
+
+* Τέλος, πατάμε το κουμπί **WRITE** και θα ξεκινήσει η διαδικασία εγγραφής του λειτουργικού συστήματος στην κάρτα μνήμης.
+
+<p align="center">
+    <img src="images/imager-end.png" alt="Ολοκλήρωση της διαδικασίας εγγραφής του λειτουργικού συστήματος" />
 </p>
 
 ## Αρχικές ρυθμίσεις
