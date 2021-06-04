@@ -5,7 +5,7 @@
 ## Raspberry Pi Imager
 
 <p align="center">
-![Raspberry Pi Imager](images/imager.png)
+    <img src="images/imager.png" alt="Raspberry Pi Imager">
 </p>
 
 Ο πιο εύκολος τρόπος για να εγκαταστήσουμε, σε μια κάρτα μνήμης micro SD, το Raspberry Lite είναι με τη χρήση του Raspberry Pi Imager - (https://www.raspberrypi.org/software/), ακολουθώντας την παρακάτω διαδικασία.
