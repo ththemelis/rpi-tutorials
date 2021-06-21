@@ -1,6 +1,6 @@
 # Εγκατάσταση του Raspberry Pi OS Lite
 
-Το Raspberry Pi OS Lite είναι μια "ελαφριά" έκδοση του Raspberry Pi OS και σε σύγκριση με το Raspberry Pi OS δεν έχει γραφικό περιβάλλον διεπαφής, επίσης έχουν αφαιρεθεί και κάποια ακόμα λογισμικά. Η επικοινωνία μας το Raspberry Pi θα γίνεται σε περιβάλλον εντολών (CLI - https://en.wikipedia.org/wiki/Command-line_interface) μετά από σύνδεση με SSH (https://en.wikipedia.org/wiki/Secure_Shell_Protocol).
+Το Raspberry Pi OS Lite είναι μια "ελαφριά" έκδοση του Raspberry Pi OS και η βασική τους διαφορά είναι ότι από το Lite έχει αφαιρεθεί το γραφικό περιβάλλον διεπαφής (GUI). Στο Lite, η επικοινωνία μας με το Raspberry Pi θα γίνεται σε περιβάλλον εντολών (CLI - https://en.wikipedia.org/wiki/Command-line_interface) μετά από σύνδεση με SSH (https://en.wikipedia.org/wiki/Secure_Shell_Protocol).
 Το Raspberry Pi OS Lite καταναλώνει πολύ λίγους πόρους από το σύστημα και έτσι είναι χρήσιμο στην περίπτωση που θέλουμε να χρησιμοποιήσουμε το Raspberry Pi σαν διακομιστή. 
 
 ## Raspberry Pi Imager
