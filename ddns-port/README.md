@@ -22,7 +22,9 @@ nano duckdns.sh
 
 Τώρα, θα επικολλήσουμε την παρακάτω εντολή μέσα στο αρχείο duckdns.sh:
 
-`echo url="https://www.duckdns.org/update?domains=[YOUR_DOMAIN]&token=[YOUR_TOKEN]&ip=" | curl -k -o ~/duckdns/duck.log -K -`
+```console
+echo url="https://www.duckdns.org/update?domains=[YOUR_DOMAIN]&token=[YOUR_TOKEN]&ip=" | curl -k -o ~/duckdns/duck.log -K -
+```
 
 Στην θέση **YOUR_DOMAIN** εισάγουμε το domain name που δεσμεύσαμε και στην θέση **YOUR_TOKEN** εισάγουμε το token.
 
@@ -30,15 +32,21 @@ nano duckdns.sh
 
 3. Θα αλλάξουμε τα δικαιώματα χρήσης του αρχείου, έτσι ώστε μόνο εμείς να έχουμε τη δυνατότητα να δούμε τα περιεχόμενά του και να το εκτελέσουμε. Γράφουμε την παρακάτω εντολή:
 
-`chmod 700 duckdns.sh`
+```console
+chmod 700 duckdns.sh
+```
 
 4. Τέλος, θα πρέπει να εκτελούμε το αρχείο **duckdns.sh** σε τακτά χρονικά διαστήματα, χρησιμοποιώντας το crontab. Γράφουμε
 
-`cronatab -e`
+```console
+cronatab -e
+```
 
 και στη συνέχεια κάνουμε επικόλληση το
 
-`*/5 * * * * ~/duckdns/duckdns.sh >/dev/null 2>&1`
+```console
+*/5 * * * * ~/duckdns/duckdns.sh >/dev/null 2>&1
+```
 
 Αποθηκεύουμε πατώντας **Ctrl+O** και βγαίνουμε από πατώντας **Ctrl+X**.
 
