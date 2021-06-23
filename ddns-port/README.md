@@ -14,9 +14,11 @@
 
 2. Αφού συνδεθούμε στο Raspberry Pi μέσω SSH, θα δημιουργήσουμε έναν φάκελο και μέσα σε αυτόν ένα αρχείο γράφοντας τις παρακάτω εντολές:
 
-`mkdir duckdns\
-cd duckdns\
-nano duckdns.sh`
+```console
+mkdir duckdns
+cd duckdns
+nano duckdns.sh
+```
 
 Τώρα, θα επικολλήσουμε την παρακάτω εντολή μέσα στο αρχείο duckdns.sh:
 
