@@ -6,5 +6,3 @@
  * ![Ενέργειες μετά την εγκατάσταση](first-boot/README.md)
  * ![Domain name και Port Forwarding](ddns-port/README.md)
  * ![Εγκατάσταση και ρύθμιση του Apache](apache/README.md)
- * ![Χρήσιμες εντολές]()
- * ![Αντίγραφα ασφάλειας]()
