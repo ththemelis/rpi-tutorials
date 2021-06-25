@@ -61,3 +61,19 @@
 <p align="center">
     <img src="images/mysql.png" alt="Ρύθμιση MariaDB" />
 </p>
+
+Στη συνέχεια, θα πρέπει να δημιουργήσουμε έναν χρήστη για να μπορούμε να διαχειριζόμαστε την βάση δεδομένων:
+
+`sudo mysql -uroot -p`
+
+Εισάγουμε τον κωδικό του διαχειριστή και στη συνέχεια γράφουμε:
+
+`CREATE USER USER@localhost IDENTIFIED BY 'PASSWORD';`
+
+Όπου **USER** εισάγουμε το όνομα χρήστη που θέλουμε να δημιουργήσουμε και **PASSWORD** τον κωδικό πρόσβασης που θέλουμε να έχει ο χρήστης.
+
+```mysql
+grant all privileges on *.* to admin@localhost;
+FLUSH PRIVILEGES;
+exit;
+```
