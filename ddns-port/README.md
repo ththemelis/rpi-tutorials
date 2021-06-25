@@ -26,7 +26,7 @@ nano duckdns.sh
 echo url="https://www.duckdns.org/update?domains=[YOUR_DOMAIN]&token=[YOUR_TOKEN]&ip=" | curl -k -o ~/duckdns/duck.log -K -
 ```
 
-Στην θέση **YOUR_DOMAIN** εισάγουμε το domain name που δεσμεύσαμε και στην θέση **YOUR_TOKEN** εισάγουμε το token.
+Στην θέση **YOUR_DOMAIN** εισάγουμε το domain name που δεσμεύσαμε και στην θέση **YOUR_TOKEN** εισάγουμε το token από την σελίδα του DuckDNS.
 
 Αποθηκεύουμε πατώντας **Ctrl+O** και βγαίνουμε από το nano πατώντας **Ctrl+X**.
 
@@ -36,7 +36,7 @@ echo url="https://www.duckdns.org/update?domains=[YOUR_DOMAIN]&token=[YOUR_TOKEN
 chmod 700 duckdns.sh
 ```
 
-4. Τέλος, θα πρέπει να εκτελούμε το αρχείο **duckdns.sh** σε τακτά χρονικά διαστήματα, χρησιμοποιώντας το crontab. Γράφουμε
+4. Τέλος, θα πρέπει να εκτελούμε το αρχείο **duckdns.sh** σε τακτά χρονικά διαστήματα, χρησιμοποιώντας το **crontab**. Γράφουμε
 
 ```console
 cronatab -e
