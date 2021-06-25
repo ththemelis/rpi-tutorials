@@ -73,7 +73,7 @@
 Όπου **USER** εισάγουμε το όνομα χρήστη που θέλουμε να δημιουργήσουμε και **PASSWORD** τον κωδικό πρόσβασης που θέλουμε να έχει ο χρήστης.
 
 ```mysql
-grant all privileges on *.* to admin@localhost;
+GRANT ALL PRIVILEGES ON *.* TO USER@localhost;
 FLUSH PRIVILEGES;
 exit;
 ```
